@@ -6,7 +6,7 @@
 //  Copyright © 2019 Ivan Zinovyev. All rights reserved.
 //
 
-extension String {
+public extension String {
     
     static let empty = ""
     
