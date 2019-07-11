@@ -22,7 +22,6 @@ Pod::Spec.new do |s|
   }
 
   s.source_files  = "Utils/**/*.{swift}"
-  s.resources = "Utils/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   s.framework  = "UIKit"
 
