@@ -29,6 +29,9 @@
 		2CE5A59A22D907A70094D390 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A59922D907A70094D390 /* UIScrollView+Extensions.swift */; };
 		2CE5A59D22D907CE0094D390 /* UIView+AddSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A59C22D907CE0094D390 /* UIView+AddSubviews.swift */; };
 		2CE5A59F22D907E50094D390 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A59E22D907E50094D390 /* UIView+Constraints.swift */; };
+		2CE5A5A222D90CAA0094D390 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A5A122D90CAA0094D390 /* BaseView.swift */; };
+		2CE5A5A422D90CF20094D390 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A5A322D90CF20094D390 /* BaseViewController.swift */; };
+		2CE5A5A622D90D0B0094D390 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A5A522D90D0B0094D390 /* BaseTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		2CE5A59922D907A70094D390 /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
 		2CE5A59C22D907CE0094D390 /* UIView+AddSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviews.swift"; sourceTree = "<group>"; };
 		2CE5A59E22D907E50094D390 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		2CE5A5A122D90CAA0094D390 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		2CE5A5A322D90CF20094D390 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2CE5A5A522D90D0B0094D390 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 			children = (
 				2CC6F03022D77F5600C4200E /* Utils.h */,
 				2CC6F03122D77F5600C4200E /* Info.plist */,
+				2CE5A5A022D90C8D0094D390 /* Base */,
 				2CC6F03822D7930B00C4200E /* Extensions */,
 				2CE5A58222D905EE0094D390 /* Protocols */,
 			);
@@ -291,6 +298,16 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
+		2CE5A5A022D90C8D0094D390 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A5A522D90D0B0094D390 /* BaseTableViewCell.swift */,
+				2CE5A5A122D90CAA0094D390 /* BaseView.swift */,
+				2CE5A5A322D90CF20094D390 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -373,17 +390,20 @@
 				2CE5A56922D903460094D390 /* NSMutableAttributedString+Attributes.swift in Sources */,
 				2CE5A59422D907560094D390 /* UIFont+CustomFont.swift in Sources */,
 				2CE5A57622D904FF0094D390 /* Locale+Locales.swift in Sources */,
+				2CE5A5A422D90CF20094D390 /* BaseViewController.swift in Sources */,
 				2CE5A59F22D907E50094D390 /* UIView+Constraints.swift in Sources */,
 				2CE5A58422D905FE0094D390 /* BoundsHolder.swift in Sources */,
 				2CC6F03C22D7937900C4200E /* String+Constants.swift in Sources */,
 				2CE5A57A22D9054C0094D390 /* CAGradientLayer+Colors.swift in Sources */,
 				2CE5A58122D905E10094D390 /* CALayer+Layout.swift in Sources */,
 				2CE5A56F22D9045C0094D390 /* CGColor+UIColor.swift in Sources */,
+				2CE5A5A222D90CAA0094D390 /* BaseView.swift in Sources */,
 				2CE5A57222D904860094D390 /* CGFloat+Sign.swift in Sources */,
 				2CE5A57D22D9057E0094D390 /* CALayer+AddSublayers.swift in Sources */,
 				2CE5A58E22D9070E0094D390 /* UIColor+Hex.swift in Sources */,
 				2CE5A57F22D905960094D390 /* CALayer+Shadow.swift in Sources */,
 				2CE5A56522D902ED0094D390 /* String+Attributes.swift in Sources */,
+				2CE5A5A622D90D0B0094D390 /* BaseTableViewCell.swift in Sources */,
 				2CE5A56B22D904120094D390 /* String+Localizable.swift in Sources */,
 				2CE5A59222D9073C0094D390 /* UIFontWeight+Title.swift in Sources */,
 				2CE5A58B22D906E30094D390 /* UIApplication+SafeArea.swift in Sources */,
