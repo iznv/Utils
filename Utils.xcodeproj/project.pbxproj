@@ -9,6 +9,26 @@
 /* Begin PBXBuildFile section */
 		2CC6F03222D77F5600C4200E /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC6F03022D77F5600C4200E /* Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CC6F03C22D7937900C4200E /* String+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC6F03B22D7937900C4200E /* String+Constants.swift */; };
+		2CE5A56522D902ED0094D390 /* String+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A56422D902ED0094D390 /* String+Attributes.swift */; };
+		2CE5A56922D903460094D390 /* NSMutableAttributedString+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A56822D903460094D390 /* NSMutableAttributedString+Attributes.swift */; };
+		2CE5A56B22D904120094D390 /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A56A22D904120094D390 /* String+Localizable.swift */; };
+		2CE5A56F22D9045C0094D390 /* CGColor+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A56E22D9045C0094D390 /* CGColor+UIColor.swift */; };
+		2CE5A57222D904860094D390 /* CGFloat+Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A57122D904860094D390 /* CGFloat+Sign.swift */; };
+		2CE5A57622D904FF0094D390 /* Locale+Locales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A57522D904FF0094D390 /* Locale+Locales.swift */; };
+		2CE5A57A22D9054C0094D390 /* CAGradientLayer+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A57922D9054C0094D390 /* CAGradientLayer+Colors.swift */; };
+		2CE5A57D22D9057E0094D390 /* CALayer+AddSublayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A57C22D9057E0094D390 /* CALayer+AddSublayers.swift */; };
+		2CE5A57F22D905960094D390 /* CALayer+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A57E22D905960094D390 /* CALayer+Shadow.swift */; };
+		2CE5A58122D905E10094D390 /* CALayer+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A58022D905E10094D390 /* CALayer+Layout.swift */; };
+		2CE5A58422D905FE0094D390 /* BoundsHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A58322D905FE0094D390 /* BoundsHolder.swift */; };
+		2CE5A58822D906C00094D390 /* NSLayoutConstraint+Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A58722D906C00094D390 /* NSLayoutConstraint+Priority.swift */; };
+		2CE5A58B22D906E30094D390 /* UIApplication+SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A58A22D906E30094D390 /* UIApplication+SafeArea.swift */; };
+		2CE5A58E22D9070E0094D390 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A58D22D9070E0094D390 /* UIColor+Hex.swift */; };
+		2CE5A59222D9073C0094D390 /* UIFontWeight+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A59122D9073C0094D390 /* UIFontWeight+Title.swift */; };
+		2CE5A59422D907560094D390 /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A59322D907560094D390 /* UIFont+CustomFont.swift */; };
+		2CE5A59722D9077B0094D390 /* UIPanGestureRecognizer+Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A59622D9077B0094D390 /* UIPanGestureRecognizer+Direction.swift */; };
+		2CE5A59A22D907A70094D390 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A59922D907A70094D390 /* UIScrollView+Extensions.swift */; };
+		2CE5A59D22D907CE0094D390 /* UIView+AddSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A59C22D907CE0094D390 /* UIView+AddSubviews.swift */; };
+		2CE5A59F22D907E50094D390 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A59E22D907E50094D390 /* UIView+Constraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +36,26 @@
 		2CC6F03022D77F5600C4200E /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		2CC6F03122D77F5600C4200E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CC6F03B22D7937900C4200E /* String+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Constants.swift"; sourceTree = "<group>"; };
+		2CE5A56422D902ED0094D390 /* String+Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Attributes.swift"; sourceTree = "<group>"; };
+		2CE5A56822D903460094D390 /* NSMutableAttributedString+Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Attributes.swift"; sourceTree = "<group>"; };
+		2CE5A56A22D904120094D390 /* String+Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
+		2CE5A56E22D9045C0094D390 /* CGColor+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGColor+UIColor.swift"; sourceTree = "<group>"; };
+		2CE5A57122D904860094D390 /* CGFloat+Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Sign.swift"; sourceTree = "<group>"; };
+		2CE5A57522D904FF0094D390 /* Locale+Locales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+Locales.swift"; sourceTree = "<group>"; };
+		2CE5A57922D9054C0094D390 /* CAGradientLayer+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Colors.swift"; sourceTree = "<group>"; };
+		2CE5A57C22D9057E0094D390 /* CALayer+AddSublayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+AddSublayers.swift"; sourceTree = "<group>"; };
+		2CE5A57E22D905960094D390 /* CALayer+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Shadow.swift"; sourceTree = "<group>"; };
+		2CE5A58022D905E10094D390 /* CALayer+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Layout.swift"; sourceTree = "<group>"; };
+		2CE5A58322D905FE0094D390 /* BoundsHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundsHolder.swift; sourceTree = "<group>"; };
+		2CE5A58722D906C00094D390 /* NSLayoutConstraint+Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Priority.swift"; sourceTree = "<group>"; };
+		2CE5A58A22D906E30094D390 /* UIApplication+SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+SafeArea.swift"; sourceTree = "<group>"; };
+		2CE5A58D22D9070E0094D390 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		2CE5A59122D9073C0094D390 /* UIFontWeight+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFontWeight+Title.swift"; sourceTree = "<group>"; };
+		2CE5A59322D907560094D390 /* UIFont+CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFont.swift"; sourceTree = "<group>"; };
+		2CE5A59622D9077B0094D390 /* UIPanGestureRecognizer+Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIPanGestureRecognizer+Direction.swift"; sourceTree = "<group>"; };
+		2CE5A59922D907A70094D390 /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
+		2CE5A59C22D907CE0094D390 /* UIView+AddSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviews.swift"; sourceTree = "<group>"; };
+		2CE5A59E22D907E50094D390 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +88,10 @@
 		2CC6F02F22D77F5600C4200E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				2CC6F03822D7930B00C4200E /* Extensions */,
 				2CC6F03022D77F5600C4200E /* Utils.h */,
 				2CC6F03122D77F5600C4200E /* Info.plist */,
+				2CC6F03822D7930B00C4200E /* Extensions */,
+				2CE5A58222D905EE0094D390 /* Protocols */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -58,7 +99,11 @@
 		2CC6F03822D7930B00C4200E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2CE5A56C22D904470094D390 /* CoreGraphics */,
+				2CE5A56622D9031F0094D390 /* Foundation */,
+				2CE5A57722D905330094D390 /* QuartzCore */,
 				2CC6F03922D7935F00C4200E /* Swift */,
+				2CE5A58522D906A90094D390 /* UIKit */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -74,9 +119,176 @@
 		2CC6F03A22D7936300C4200E /* String */ = {
 			isa = PBXGroup;
 			children = (
+				2CE5A56422D902ED0094D390 /* String+Attributes.swift */,
 				2CC6F03B22D7937900C4200E /* String+Constants.swift */,
+				2CE5A56A22D904120094D390 /* String+Localizable.swift */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		2CE5A56622D9031F0094D390 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A57422D904F00094D390 /* Locale */,
+				2CE5A56722D903340094D390 /* NSMutableAttributedString */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		2CE5A56722D903340094D390 /* NSMutableAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A56822D903460094D390 /* NSMutableAttributedString+Attributes.swift */,
+			);
+			path = NSMutableAttributedString;
+			sourceTree = "<group>";
+		};
+		2CE5A56C22D904470094D390 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A56D22D904500094D390 /* CGColor */,
+				2CE5A57022D904770094D390 /* CGFloat */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		2CE5A56D22D904500094D390 /* CGColor */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A56E22D9045C0094D390 /* CGColor+UIColor.swift */,
+			);
+			path = CGColor;
+			sourceTree = "<group>";
+		};
+		2CE5A57022D904770094D390 /* CGFloat */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A57122D904860094D390 /* CGFloat+Sign.swift */,
+			);
+			path = CGFloat;
+			sourceTree = "<group>";
+		};
+		2CE5A57422D904F00094D390 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A57522D904FF0094D390 /* Locale+Locales.swift */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		2CE5A57722D905330094D390 /* QuartzCore */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A57822D905400094D390 /* CAGradientLayer */,
+				2CE5A57B22D905710094D390 /* CALayer */,
+			);
+			path = QuartzCore;
+			sourceTree = "<group>";
+		};
+		2CE5A57822D905400094D390 /* CAGradientLayer */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A57922D9054C0094D390 /* CAGradientLayer+Colors.swift */,
+			);
+			path = CAGradientLayer;
+			sourceTree = "<group>";
+		};
+		2CE5A57B22D905710094D390 /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A57C22D9057E0094D390 /* CALayer+AddSublayers.swift */,
+				2CE5A58022D905E10094D390 /* CALayer+Layout.swift */,
+				2CE5A57E22D905960094D390 /* CALayer+Shadow.swift */,
+			);
+			path = CALayer;
+			sourceTree = "<group>";
+		};
+		2CE5A58222D905EE0094D390 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A58322D905FE0094D390 /* BoundsHolder.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2CE5A58522D906A90094D390 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A58622D906B10094D390 /* NSLayoutConstraint */,
+				2CE5A58922D906D30094D390 /* UIApplication */,
+				2CE5A58C22D906F90094D390 /* UIColor */,
+				2CE5A58F22D9071F0094D390 /* UIFont */,
+				2CE5A59522D9076B0094D390 /* UIPanGestureRecognizer */,
+				2CE5A59822D907990094D390 /* UIScrollView */,
+				2CE5A59B22D907C10094D390 /* UIView */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		2CE5A58622D906B10094D390 /* NSLayoutConstraint */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A58722D906C00094D390 /* NSLayoutConstraint+Priority.swift */,
+			);
+			path = NSLayoutConstraint;
+			sourceTree = "<group>";
+		};
+		2CE5A58922D906D30094D390 /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A58A22D906E30094D390 /* UIApplication+SafeArea.swift */,
+			);
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		2CE5A58C22D906F90094D390 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A58D22D9070E0094D390 /* UIColor+Hex.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		2CE5A58F22D9071F0094D390 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A59022D9072D0094D390 /* Weight */,
+				2CE5A59322D907560094D390 /* UIFont+CustomFont.swift */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		2CE5A59022D9072D0094D390 /* Weight */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A59122D9073C0094D390 /* UIFontWeight+Title.swift */,
+			);
+			path = Weight;
+			sourceTree = "<group>";
+		};
+		2CE5A59522D9076B0094D390 /* UIPanGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A59622D9077B0094D390 /* UIPanGestureRecognizer+Direction.swift */,
+			);
+			path = UIPanGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		2CE5A59822D907990094D390 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A59922D907A70094D390 /* UIScrollView+Extensions.swift */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		2CE5A59B22D907C10094D390 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5A59C22D907CE0094D390 /* UIView+AddSubviews.swift */,
+				2CE5A59E22D907E50094D390 /* UIView+Constraints.swift */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +370,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE5A56922D903460094D390 /* NSMutableAttributedString+Attributes.swift in Sources */,
+				2CE5A59422D907560094D390 /* UIFont+CustomFont.swift in Sources */,
+				2CE5A57622D904FF0094D390 /* Locale+Locales.swift in Sources */,
+				2CE5A59F22D907E50094D390 /* UIView+Constraints.swift in Sources */,
+				2CE5A58422D905FE0094D390 /* BoundsHolder.swift in Sources */,
 				2CC6F03C22D7937900C4200E /* String+Constants.swift in Sources */,
+				2CE5A57A22D9054C0094D390 /* CAGradientLayer+Colors.swift in Sources */,
+				2CE5A58122D905E10094D390 /* CALayer+Layout.swift in Sources */,
+				2CE5A56F22D9045C0094D390 /* CGColor+UIColor.swift in Sources */,
+				2CE5A57222D904860094D390 /* CGFloat+Sign.swift in Sources */,
+				2CE5A57D22D9057E0094D390 /* CALayer+AddSublayers.swift in Sources */,
+				2CE5A58E22D9070E0094D390 /* UIColor+Hex.swift in Sources */,
+				2CE5A57F22D905960094D390 /* CALayer+Shadow.swift in Sources */,
+				2CE5A56522D902ED0094D390 /* String+Attributes.swift in Sources */,
+				2CE5A56B22D904120094D390 /* String+Localizable.swift in Sources */,
+				2CE5A59222D9073C0094D390 /* UIFontWeight+Title.swift in Sources */,
+				2CE5A58B22D906E30094D390 /* UIApplication+SafeArea.swift in Sources */,
+				2CE5A59D22D907CE0094D390 /* UIView+AddSubviews.swift in Sources */,
+				2CE5A58822D906C00094D390 /* NSLayoutConstraint+Priority.swift in Sources */,
+				2CE5A59722D9077B0094D390 /* UIPanGestureRecognizer+Direction.swift in Sources */,
+				2CE5A59A22D907A70094D390 /* UIScrollView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
