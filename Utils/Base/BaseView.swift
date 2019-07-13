@@ -22,6 +22,26 @@ open class BaseView: UIView {
     
     // MARK: - To Override
     
-    open func commonInit() { }
+    open func commonInit() {
+        initialize()
+    }
+    
+    open func addViews() { }
+    
+    open func configureConstraints() { }
+    
+    open func configureAppearance() { }
+    
+}
+
+// MARK: - Initialization
+
+extension BaseView {
+    
+    func initialize() {
+        addViews()
+        configureConstraints()
+        configureAppearance()
+    }
     
 }
