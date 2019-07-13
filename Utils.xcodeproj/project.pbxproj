@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2CC6F03222D77F5600C4200E /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC6F03022D77F5600C4200E /* Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CC6F03C22D7937900C4200E /* String+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC6F03B22D7937900C4200E /* String+Constants.swift */; };
+		2CE0147522DA2EA200635444 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0147422DA2EA200635444 /* BaseTableViewController.swift */; };
 		2CE5A56522D902ED0094D390 /* String+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A56422D902ED0094D390 /* String+Attributes.swift */; };
 		2CE5A56922D903460094D390 /* NSMutableAttributedString+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A56822D903460094D390 /* NSMutableAttributedString+Attributes.swift */; };
 		2CE5A56B22D904120094D390 /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5A56A22D904120094D390 /* String+Localizable.swift */; };
@@ -39,6 +40,7 @@
 		2CC6F03022D77F5600C4200E /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		2CC6F03122D77F5600C4200E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CC6F03B22D7937900C4200E /* String+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Constants.swift"; sourceTree = "<group>"; };
+		2CE0147422DA2EA200635444 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		2CE5A56422D902ED0094D390 /* String+Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Attributes.swift"; sourceTree = "<group>"; };
 		2CE5A56822D903460094D390 /* NSMutableAttributedString+Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Attributes.swift"; sourceTree = "<group>"; };
 		2CE5A56A22D904120094D390 /* String+Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
@@ -302,6 +304,7 @@
 			isa = PBXGroup;
 			children = (
 				2CE5A5A522D90D0B0094D390 /* BaseTableViewCell.swift */,
+				2CE0147422DA2EA200635444 /* BaseTableViewController.swift */,
 				2CE5A5A122D90CAA0094D390 /* BaseView.swift */,
 				2CE5A5A322D90CF20094D390 /* BaseViewController.swift */,
 			);
@@ -404,6 +407,7 @@
 				2CE5A57F22D905960094D390 /* CALayer+Shadow.swift in Sources */,
 				2CE5A56522D902ED0094D390 /* String+Attributes.swift in Sources */,
 				2CE5A5A622D90D0B0094D390 /* BaseTableViewCell.swift in Sources */,
+				2CE0147522DA2EA200635444 /* BaseTableViewController.swift in Sources */,
 				2CE5A56B22D904120094D390 /* String+Localizable.swift in Sources */,
 				2CE5A59222D9073C0094D390 /* UIFontWeight+Title.swift in Sources */,
 				2CE5A58B22D906E30094D390 /* UIApplication+SafeArea.swift in Sources */,
