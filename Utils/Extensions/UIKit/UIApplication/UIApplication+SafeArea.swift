@@ -8,6 +8,7 @@
 
 public extension UIApplication {
     
+    @available(iOS 11.0, *)
     var safeAreaInsets: UIEdgeInsets {
         guard let insets = delegate?.window??.safeAreaInsets else {
             fatalError()

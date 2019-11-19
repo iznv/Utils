@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "Utils"
-  s.version = "0.0.9"
+  s.version = "0.0.10"
   s.summary = "Extensions, base classes, etc."
   s.homepage = "https://github.com/iznv/Utils"
 
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author = { "Ivan Zinovyev" => "zinovyev-ivan@yandex.ru" }
   s.social_media_url = "https://www.instagram.com/zinovyev.apps"
 
-  s.platform = :ios, "11.0"
+  s.platform = :ios, "10.0"
   s.swift_version = "5.0"
 
   s.source = {
