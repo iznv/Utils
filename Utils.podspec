@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "Utils"
-  s.version = "0.0.10"
+  s.version = "0.0.11"
   s.summary = "Extensions, base classes, etc."
   s.homepage = "https://github.com/iznv/Utils"
 
