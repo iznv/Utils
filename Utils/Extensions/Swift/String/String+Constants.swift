@@ -10,4 +10,16 @@ public extension String {
     
     static let empty = ""
     
+    static let comma = ","
+    
+    static let underscore = "_"
+    
+    static let whitespace = " "
+    
+    static let dot = "."
+    
+    static let semicolon = ";"
+    
+    static let colon = ":"
+    
 }

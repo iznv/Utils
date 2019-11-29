@@ -26,14 +26,6 @@ open class BaseTableViewController<ViewModelType>: BaseViewController<ViewModelT
         return .zero
     }
     
-    // MARK: - Life Cycle
-    
-    override open func viewDidLoad() {
-        super.viewDidLoad()
-        
-        configureTableView()
-    }
-    
     // MARK: - Subviews
     
     override open func addViews() {

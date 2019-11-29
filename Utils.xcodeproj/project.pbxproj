@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C549A922391AEAE002E451B /* NSManagedObjectContext+Safety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C549A912391AEAE002E451B /* NSManagedObjectContext+Safety.swift */; };
+		2C549A952391AEE9002E451B /* Array+Chunked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C549A942391AEE9002E451B /* Array+Chunked.swift */; };
+		2C549A982391AF0B002E451B /* Dictionary+MapPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C549A972391AF0B002E451B /* Dictionary+MapPairs.swift */; };
+		2C549A9A2391AF1F002E451B /* Dictionary+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C549A992391AF1F002E451B /* Dictionary+Operators.swift */; };
+		2C549A9C2391AF87002E451B /* String+HtmlDecoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C549A9B2391AF87002E451B /* String+HtmlDecoded.swift */; };
+		2C549A9F2391AFFE002E451B /* UIStackView+Clear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C549A9E2391AFFE002E451B /* UIStackView+Clear.swift */; };
+		2C549AA22391B043002E451B /* UIImageView+AsyncLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C549AA12391B043002E451B /* UIImageView+AsyncLoading.swift */; };
+		2C549AA42391B0DC002E451B /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C549AA32391B0DC002E451B /* UIView+Animation.swift */; };
 		2CC6F03222D77F5600C4200E /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC6F03022D77F5600C4200E /* Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CC6F03C22D7937900C4200E /* String+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC6F03B22D7937900C4200E /* String+Constants.swift */; };
 		2CE0147522DA2EA200635444 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0147422DA2EA200635444 /* BaseTableViewController.swift */; };
@@ -36,6 +44,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C549A912391AEAE002E451B /* NSManagedObjectContext+Safety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Safety.swift"; sourceTree = "<group>"; };
+		2C549A942391AEE9002E451B /* Array+Chunked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Chunked.swift"; sourceTree = "<group>"; };
+		2C549A972391AF0B002E451B /* Dictionary+MapPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+MapPairs.swift"; sourceTree = "<group>"; };
+		2C549A992391AF1F002E451B /* Dictionary+Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Operators.swift"; sourceTree = "<group>"; };
+		2C549A9B2391AF87002E451B /* String+HtmlDecoded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HtmlDecoded.swift"; sourceTree = "<group>"; };
+		2C549A9E2391AFFE002E451B /* UIStackView+Clear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Clear.swift"; sourceTree = "<group>"; };
+		2C549AA12391B043002E451B /* UIImageView+AsyncLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+AsyncLoading.swift"; sourceTree = "<group>"; };
+		2C549AA32391B0DC002E451B /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
 		2CC6F02D22D77F5600C4200E /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC6F03022D77F5600C4200E /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		2CC6F03122D77F5600C4200E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,6 +93,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C549A8F2391AE91002E451B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2C549A902391AE9F002E451B /* NSManagedObjectContext */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		2C549A902391AE9F002E451B /* NSManagedObjectContext */ = {
+			isa = PBXGroup;
+			children = (
+				2C549A912391AEAE002E451B /* NSManagedObjectContext+Safety.swift */,
+			);
+			path = NSManagedObjectContext;
+			sourceTree = "<group>";
+		};
+		2C549A932391AED6002E451B /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				2C549A942391AEE9002E451B /* Array+Chunked.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		2C549A962391AEFE002E451B /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				2C549A972391AF0B002E451B /* Dictionary+MapPairs.swift */,
+				2C549A992391AF1F002E451B /* Dictionary+Operators.swift */,
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		2C549A9D2391AFEC002E451B /* UIStackView */ = {
+			isa = PBXGroup;
+			children = (
+				2C549A9E2391AFFE002E451B /* UIStackView+Clear.swift */,
+			);
+			path = UIStackView;
+			sourceTree = "<group>";
+		};
+		2C549AA02391B02B002E451B /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				2C549AA12391B043002E451B /* UIImageView+AsyncLoading.swift */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
 		2CC6F02322D77F5600C4200E = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +173,7 @@
 		2CC6F03822D7930B00C4200E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2C549A8F2391AE91002E451B /* CoreData */,
 				2CE5A56C22D904470094D390 /* CoreGraphics */,
 				2CE5A56622D9031F0094D390 /* Foundation */,
 				2CE5A57722D905330094D390 /* QuartzCore */,
@@ -120,6 +186,8 @@
 		2CC6F03922D7935F00C4200E /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				2C549A932391AED6002E451B /* Array */,
+				2C549A962391AEFE002E451B /* Dictionary */,
 				2CC6F03A22D7936300C4200E /* String */,
 			);
 			path = Swift;
@@ -130,6 +198,7 @@
 			children = (
 				2CE5A56422D902ED0094D390 /* String+Attributes.swift */,
 				2CC6F03B22D7937900C4200E /* String+Constants.swift */,
+				2C549A9B2391AF87002E451B /* String+HtmlDecoded.swift */,
 				2CE5A56A22D904120094D390 /* String+Localizable.swift */,
 			);
 			path = String;
@@ -227,8 +296,10 @@
 				2CE5A58922D906D30094D390 /* UIApplication */,
 				2CE5A58C22D906F90094D390 /* UIColor */,
 				2CE5A58F22D9071F0094D390 /* UIFont */,
+				2C549AA02391B02B002E451B /* UIImageView */,
 				2CE5A59522D9076B0094D390 /* UIPanGestureRecognizer */,
 				2CE5A59822D907990094D390 /* UIScrollView */,
+				2C549A9D2391AFEC002E451B /* UIStackView */,
 				2CE5A59B22D907C10094D390 /* UIView */,
 			);
 			path = UIKit;
@@ -295,6 +366,7 @@
 			isa = PBXGroup;
 			children = (
 				2CE5A59C22D907CE0094D390 /* UIView+AddSubviews.swift */,
+				2C549AA32391B0DC002E451B /* UIView+Animation.swift */,
 				2CE5A59E22D907E50094D390 /* UIView+Constraints.swift */,
 			);
 			path = UIView;
@@ -391,6 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE5A56922D903460094D390 /* NSMutableAttributedString+Attributes.swift in Sources */,
+				2C549A9F2391AFFE002E451B /* UIStackView+Clear.swift in Sources */,
 				2CE5A59422D907560094D390 /* UIFont+CustomFont.swift in Sources */,
 				2CE5A57622D904FF0094D390 /* Locale+Locales.swift in Sources */,
 				2CE5A5A422D90CF20094D390 /* BaseViewController.swift in Sources */,
@@ -408,6 +481,8 @@
 				2CE5A56522D902ED0094D390 /* String+Attributes.swift in Sources */,
 				2CE5A5A622D90D0B0094D390 /* BaseTableViewCell.swift in Sources */,
 				2CE0147522DA2EA200635444 /* BaseTableViewController.swift in Sources */,
+				2C549A982391AF0B002E451B /* Dictionary+MapPairs.swift in Sources */,
+				2C549AA42391B0DC002E451B /* UIView+Animation.swift in Sources */,
 				2CE5A56B22D904120094D390 /* String+Localizable.swift in Sources */,
 				2CE5A59222D9073C0094D390 /* UIFontWeight+Title.swift in Sources */,
 				2CE5A58B22D906E30094D390 /* UIApplication+SafeArea.swift in Sources */,
@@ -415,6 +490,11 @@
 				2CE5A58822D906C00094D390 /* NSLayoutConstraint+Priority.swift in Sources */,
 				2CE5A59722D9077B0094D390 /* UIPanGestureRecognizer+Direction.swift in Sources */,
 				2CE5A59A22D907A70094D390 /* UIScrollView+Extensions.swift in Sources */,
+				2C549A922391AEAE002E451B /* NSManagedObjectContext+Safety.swift in Sources */,
+				2C549AA22391B043002E451B /* UIImageView+AsyncLoading.swift in Sources */,
+				2C549A952391AEE9002E451B /* Array+Chunked.swift in Sources */,
+				2C549A9C2391AF87002E451B /* String+HtmlDecoded.swift in Sources */,
+				2C549A9A2391AF1F002E451B /* Dictionary+Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
