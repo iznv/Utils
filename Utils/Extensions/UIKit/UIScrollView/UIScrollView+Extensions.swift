@@ -8,8 +8,14 @@
 
 public extension UIScrollView {
     
-    func scrollToTop() {
-        setContentOffset(.zero, animated: true)
+    func scrollToTop(shouldLayoutBefore: Bool = true,
+                     animated: Bool = true) {
+        
+        if shouldLayoutBefore {
+            layoutIfNeeded()
+        }
+        
+        setContentOffset(.zero, animated: animated)
     }
     
 }
